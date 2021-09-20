@@ -10,7 +10,7 @@ import { Video } from '../models/search.interface';
 })
 export class SearchService {
   private API_URL = 'https://www.googleapis.com/youtube/v3/search';
-  private API_TOKEN = 'AIzaSyAjbuOgqP6rr7ObC9DrBpnHcSkWFOtpS5A';
+  private API_TOKEN = 'API-KEY-HERE';
 
   constructor(private http: HttpClient) { }
   
